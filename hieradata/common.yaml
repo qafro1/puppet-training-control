@@ -1,0 +1,23 @@
+# common.yaml
+
+# apache
+apache::vhost::port: 8009
+apache::vhost::docroot: '/var/www/personal'
+
+# sense
+sensu::script_dependencies:
+  'bc':
+    'ensure': latest
+  'linux-kstat':
+    'ensure': latest
+    'provider': 'gem'
+
+# clamav
+clamav::scanning:
+  default:
+    hour: 06
+    exclude_dir:
+      - '(?i)/^\/(sys|dev)/'
+    scan:
+      - '/'
+    enable: true

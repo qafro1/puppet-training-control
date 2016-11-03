@@ -1,0 +1,15 @@
+---
+:backends:
+  - yaml
+
+:logger: console
+
+:hierarchy:
+  - nodes/%{::hostname}
+  - location/%{::location}
+  - common
+
+:yaml:
+  :datadir: ./hieradata
+
+:merge_behavior: deeper
