@@ -12,8 +12,8 @@ mod 'epel',
 
 mod 'archive',
   :git => 'git@github.com:contino-training/puppet-archive.git',
-  :tag => '1.1.2'
+  :tag => 'v1.1.2'
 
 mod 'remote_file',
   :git => 'git@github.com:contino-training/puppet-remote_file.git',
-  :tag => '1.1.3'
+  :tag => 'v1.1.3'
