@@ -3,6 +3,16 @@ forge "http://forge.puppetlabs.com"
 # Puppet Standard Library
 mod 'puppetlabs-stdlib', '3.2.1'
 
+mod 'apache',
+  :git => 'git@github.com:contino-training/jordan-apache.git',
+  :tag => '0.0.2'
+
+
+
+
+
+
+
 # Examples
 # mod 'wget',
 #   :git => 'git@github.com:contino-training/puppet-wget.git',
