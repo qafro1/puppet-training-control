@@ -9,7 +9,7 @@ mod 'apache',
 
 mod 'wget',
   :git => 'git@github.com:contino-training/puppet-wget.git',
-  :tag => '1.7.4'
+  :tag => 'v1.7.4'
 
 mod 'archive',
   :git => 'git@github.com:contino-training/puppet-archive.git',
