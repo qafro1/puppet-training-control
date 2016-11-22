@@ -12,9 +12,9 @@ mod 'apache',
 #   :git => 'git@github.com:contino-training/jordan-apache.git',
 #   :tag => '0.0.3'
 #
-# mod 'wget',
-#   :git => 'git@github.com:contino-training/puppet-wget.git',
-#   :tag => 'v1.7.5'
+ mod 'wget',
+   :git => 'git@github.com:contino-training/puppet-wget.git',
+   :tag => 'v1.7.6'
 #
 # mod 'archive',
 #   :git => 'git@github.com:contino-training/puppet-archive.git',
