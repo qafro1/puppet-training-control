@@ -20,7 +20,7 @@ mod 'apache',
 #   :git => 'git@github.com:contino-training/puppet-archive.git',
 #   :tag => '0.1.1'
 #
-# mod 'epel',
-#   :git => 'git@github.com:contino-training/puppet-epel.git',
-#   :tag => '1.2.2'
-#
+mod 'epel',
+  :git => 'git@github.com:contino-training/puppet-epel.git',
+  :tag => '1.2.4'
+
