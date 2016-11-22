@@ -16,10 +16,10 @@ mod 'apache',
    :git => 'git@github.com:contino-training/puppet-wget.git',
    :tag => 'v1.7.6'
 #
-# mod 'archive',
-#   :git => 'git@github.com:contino-training/puppet-archive.git',
-#   :tag => '0.1.1'
-#
+mod 'archive',
+   :git => 'git@github.com:contino-training/puppet-archive.git',
+   :tag => '1.1.3-rc1'
+
 mod 'epel',
   :git => 'git@github.com:contino-training/puppet-epel.git',
   :tag => '1.2.4'
