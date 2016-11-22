@@ -4,7 +4,7 @@ forge "http://forge.puppetlabs.com"
 mod 'puppetlabs-stdlib', '3.2.1'
 
 mod 'apache',
-  :git => 'git@github.com/bhatsu/bhatsu-apache.git',
+  :git => 'git@github.com:bhatsu/bhatsu-apache.git',
   :tag => '1.1.0'
 
 # Examples
